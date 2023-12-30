@@ -7,10 +7,10 @@
 5. partial change in dom
 ## Events
 ### Client
-new-game
-enter-room(room-code)
-set-username
-move
+new-game\
+enter-room(room-code)\
+set-username\
+move\
 leave
 
 ### Server
@@ -49,11 +49,11 @@ score p2 SMALLINT,
 turn TINYINT,
 state TINYINT
 ```
-turn - 1st or 2nd player turn
-board - <span style='color: red;'>type is yet to decide</span>
-nicks - look into sanitazation in mySQL as nicks are user-input strings
-player-sid - session ids of socket.io connections
-state:
+turn - 1st or 2nd player turn\
+board - <span style='color: red;'>type is yet to decide</span>\
+nicks - look into sanitazation in mySQL as nicks are user-input strings\
+player-sid - session ids of socket.io connections\
+state:\
   | 0 | game ongoing |
   | 1 | player 1 won |
   | 2 | player 2 won |
