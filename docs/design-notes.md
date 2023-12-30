@@ -55,5 +55,6 @@ nicks - look into sanitazation in mySQL as nicks are user-input strings\
 player-sid - session ids of socket.io connections\
 state:\
   | 0 | game ongoing |
+  |---|--------------|
   | 1 | player 1 won |
   | 2 | player 2 won |
